@@ -5,7 +5,7 @@ import TrackKeys from '.'
 
 const TrackKey = ({ track, toggleOpen, clickTrackButton }) => {
   const { title, tracks, isOpen, hasButton, sideComponent } = track
-  const isExpandable = isOpen !== undefined
+  const isExpandable = false
 
   const buildSideComponent = () => {
     if (sideComponent) {
